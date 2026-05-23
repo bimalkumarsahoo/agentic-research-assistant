@@ -1,0 +1,19 @@
+[project]
+name = "agentic-research-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.104.1",
+    "google-genai>=2.6.0",
+    "python-dotenv>=1.2.2",
+    "structlog>=25.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+    "pytest>=9.0.3",
+    "ruff>=0.15.14",
+]
